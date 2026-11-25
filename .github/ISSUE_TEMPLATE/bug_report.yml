@@ -1,0 +1,29 @@
+name: Bug Report
+description: 报告问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: 问题描述
+      description: 清晰描述遇到的问题
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 1. xxx 2. xxx 3. xxx
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: 环境
+      description: OS / 浏览器 / 版本
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志/截图
+      description: 相关报错信息
